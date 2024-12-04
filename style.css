@@ -1,0 +1,107 @@
+/* Alapvető stílusok */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFD45F;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+main {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.products h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
